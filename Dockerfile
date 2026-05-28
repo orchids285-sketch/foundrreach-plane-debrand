@@ -19,6 +19,7 @@ COPY patches/star-us-link.tsx       "apps/web/app/(all)/[workspaceSlug]/(project
 COPY patches/edition-badge.tsx      "apps/web/ce/components/workspace/edition-badge.tsx"
 COPY patches/help-section-root.tsx  "apps/web/core/components/workspace/sidebar/help-section/root.tsx"
 COPY patches/user-greetings.tsx     "apps/web/core/components/home/user-greetings.tsx"
+COPY patches/entry.client.tsx       "apps/web/app/entry.client.tsx"
 
 # *****************************************************************************
 # STAGE 2: Prune the monorepo to the web app only
