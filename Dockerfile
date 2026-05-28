@@ -18,6 +18,7 @@ RUN git clone --depth 1 --branch ${PLANE_VERSION} https://github.com/makeplane/p
 COPY patches/star-us-link.tsx       "apps/web/app/(all)/[workspaceSlug]/(projects)/star-us-link.tsx"
 COPY patches/edition-badge.tsx      "apps/web/ce/components/workspace/edition-badge.tsx"
 COPY patches/help-section-root.tsx  "apps/web/core/components/workspace/sidebar/help-section/root.tsx"
+COPY patches/user-greetings.tsx     "apps/web/core/components/home/user-greetings.tsx"
 
 # *****************************************************************************
 # STAGE 2: Prune the monorepo to the web app only
